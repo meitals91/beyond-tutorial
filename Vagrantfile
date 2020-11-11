@@ -50,8 +50,9 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-  # config.vm.provider "virtualbox" do |vb|
-  #   vb.memory = "1024"
+   config.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+	end
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
   #
